@@ -1,0 +1,7 @@
+.place {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    margin: 92px 148px 0;
+}
