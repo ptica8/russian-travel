@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 460px 1fr; /*задать через калк*/
     gap: 48px 40px;
-    margin: 0 80px;
+    padding: 0 0 80px;
 }
 
 .place:last-child {
