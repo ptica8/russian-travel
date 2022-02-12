@@ -5,4 +5,12 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 163%;
+    text-align: left;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__subtitle {
+        max-width: 100%;
+    }
 }

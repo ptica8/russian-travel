@@ -1,7 +1,32 @@
 .place {
-    color: #FFFFFF;
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(5, auto);
-    margin: 92px 148px 0;
+    grid-template-columns: 460px 1fr; /*задать через калк*/
+    gap: 48px 40px;
+    margin: 0 80px;
+}
+
+.place:last-child {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .place {
+        grid-template-columns: 100%;
+        gap: 32px;
+        margin: 0 16px 80px;
+    }
 }

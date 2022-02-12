@@ -4,7 +4,8 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    padding: 245px 312px 32px;
     margin: 0;
     width: 560px;
+    position: relative;
+    z-index: 1;
 }

@@ -2,17 +2,22 @@
     color: #FFFFFF;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    width: 1184px;
-    height: 740px;
-    margin: 92px 48px;
+    max-width: 1184px;
+    max-height: 740px;
+    position: relative;
 }
 
 .cover:before {
     content: '';
     display: block;
     background-color: #2A2C2F;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
     opacity: 0.3;
-    width: 100%; /*не могу правильно растянуть*/
+    width: 100%;
     transition: opacity 0.4s ease;
 }
 
