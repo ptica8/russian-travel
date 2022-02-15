@@ -21,4 +21,4 @@
 
 **GitHub**
 
-* [Ссылка на GitHub Pages]()
+* [Ссылка на GitHub Pages](https://ptica8.github.io/russian-travel/)
