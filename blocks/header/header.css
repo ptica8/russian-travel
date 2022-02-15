@@ -2,15 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1184px;
+    max-width: calc(100% - 96px);
     margin: 0 auto;
     padding-top: 28px;
-}
-
-@media screen and (max-width: 1280px) {
-    .header {
-        max-width: calc(100% - 96px);
-    }
 }
 
 @media screen and (max-width: 768px) {

@@ -1,7 +1,7 @@
 .lead__title {
     max-width: 720px;
     margin: 0;
-    line-height: 100px;
+    line-height: 104%;
     font-size: 96px;
     font-weight: 900;
     font-style: normal;
@@ -9,11 +9,9 @@
     padding: 0 0 32px;
 }
 
-/*не работает width на 500-600 появляется скролл*/
-
 @media screen and (max-width: 767px) {
     .lead__title {
-        line-height: 44px;
+        line-height: 110%;
         font-size: 40px;
         padding-bottom: 16px;
     }

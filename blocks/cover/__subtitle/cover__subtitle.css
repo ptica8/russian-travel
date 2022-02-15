@@ -2,10 +2,19 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 122%;
     text-align: center;
-    margin: 0;
-    width: 360px;
+    margin: 0 auto;
+    max-width: 360px;
     position: relative;
+    align-items: center;
     z-index: 1;
+}
+
+@media screen and (max-width: 450px) {
+    .cover__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 114%;
+    }
 }

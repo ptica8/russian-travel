@@ -2,6 +2,10 @@
     color: #FFFFFF;
     text-decoration-line: underline;
     font-size: 18px;
-    line-height: 163%;
+    line-height: 122%;
     padding: 0;
+}
+
+.place__website_link:hover {
+    opacity: 0.5;
 }

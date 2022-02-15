@@ -1,10 +1,11 @@
 .cover {
     color: #FFFFFF;
     background-image: url(../../images/cover-trains.jpg);
+    background-position: center;
     background-size: cover;
     max-width: 1184px;
-    max-height: 740px;
     position: relative;
+    margin: 92px auto 0;
 }
 
 .cover:before {
@@ -24,4 +25,22 @@
 .cover:hover:before {
     background-color: #2A2C2F;
     opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 90px auto 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cover {
+        margin: 66px auto 0;
+    }
 }
